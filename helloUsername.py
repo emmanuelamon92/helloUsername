@@ -1,6 +1,6 @@
 # Question 1
 def hello_name (user_name):
-    print ('hello_' + user_name)
+    print ('hello_' + user_name.upper())
 
 hello_name("Eman")
 
@@ -21,13 +21,13 @@ max_num_in_list([9, 4, 46, 23, 45, 56, 21])
 # Question 4
 def is_leap_year(a_year):
     if a_year % 4 == 0 & a_year % 400 == 0:
-        #print ('Leap Year!')
+        print ('Leap Year!')
         return True
     else:
-        #print ('No Leap')
+        print ('No Leap')
         return False
 
-is_leap_year(2017)
+is_leap_year(2019)
 
 # Question 5
 def is_consecutive(a_list):
